@@ -1,6 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
-html {background-color: #333}
+html {background-color: #333 }
 
 body
 {margin: 0 auto;
@@ -8,7 +8,26 @@ body
 	max-width: 80%;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
 	color: black;
-	background-color: lightgray}
+	background-color: darkgray; }
+
+h1
+{font-weight: 900;
+}
+
+#leftimage
+{float: left;}
+
+#rightimage
+{float: right;}
+
+#middleimage
+{float: left;}
+	
+img.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
 
 
 ul {
@@ -31,31 +50,39 @@ li a {
     text-decoration: none;
 }
 
+.navigation{
+	position:fixed;
+	top:0;
+	background-color: #333;
+}
+
+.navigation a {
+	float:left;
+	display:block;
+	color:#FFFFFF;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size:20px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";}
+
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
 }
 
-h1
-{font-weight: 900;
-}
+#header1 {
+color: #FFFFFF;
+text-align: center;
+font-size: 30pt;
+font-weight: 900%;
+line-height: 1.4em;
+font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";}
 
-#leftimage
-{float: left;}
-	
-	
-
-#rightimage
-{float: right;}
-
-#middleimage
-{float: left;}
-	
-img.center{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	}
-
-.space400{ margin-top: 400px;}
-.space700{ margin-top: 700px;}
+.space5{ margin-top: 5px; }
+.space10{ margin-top: 10px; }
+.space25{ margin-top: 25px; }
+.space35{ margin-top: 35px; }
+.space50{ margin-top: 50px; }
+.space100{ margin-top: 100px; }
+.space150{ margin-top: 150px; }
