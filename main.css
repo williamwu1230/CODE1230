@@ -71,6 +71,24 @@ li a:hover {
     background-color: #111;
 }
 
+figure {
+    display: inline;
+}
+img, figcaption {
+
+    vertical-align: bottom;
+}
+figcaption {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+sidebar {position:fixed; left:80%, padding:1%;
+    text-align: left;}
+
+
 #header1 {
 color: #FFFFFF;
 text-align: center;

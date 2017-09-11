@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+html {background-color: #333 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navmap{
+	position:fixed;
+	top:0;
+    right:0;
+	background-color: #333;
+    
+}
+
+.navmap a {
+    display:block;
+	color:#FFFFFF;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size:20px;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+sidebar {
+    position:fixed; 
+    left:78%; 
+    padding-top:2.3%;
+    padding-left: -40px; 
+    text-align: left;
+    color: white;
+    ;
+}
+
+body {
+    margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    }
+
+h1 {
+    color: #FFFFFF;
+    font-size: 20pt;
+    opacity: inherit;
+    margin-left: 0px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";}
+
+p {
+    color: #FFFFFF;
+    opacity: inherit;
+    font-size: 10pt;
+    padding-left: -5px;
+    padding-right: 15px;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";}
+
+
+
