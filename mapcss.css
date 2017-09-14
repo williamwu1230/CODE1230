@@ -27,6 +27,7 @@ li a {
 	top:0;
     right:3%;
 	background-color: #333;
+    opacity: 100%;
     
 }
 
@@ -55,13 +56,24 @@ sidebar {
     padding-left: 0px; 
     text-align: left;
     color: white;
+    width:29%;
+    overflow-y: auto;
+    height: 95%;
     
-    ;
+    
 }
+
+img {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
 
 body {
     margin-top: 30px;
 	padding-left: 2%;
+    padding-right: 5%;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
     }
 
